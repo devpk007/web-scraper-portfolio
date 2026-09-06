@@ -1,13 +1,7 @@
-# Web Scraper de Catálogo de Produtos
+# Web Scraper de Catálogo de Produtos (1º projeto do meu portifólio)
 
 Script em Python que extrai título, preço, avaliação e disponibilidade de
 produtos de um catálogo online, com paginação automática, e salva tudo em CSV.
-
-## Por que esse projeto pro portfólio
-
-Esse é exatamente o tipo de pedido mais comum em freelas de web scraping no
-Workana: "extrai os dados de [X] produtos de um site pra planilha". O script
-mostra:
 
 - Paginação automática (percorre o catálogo inteiro sozinho)
 - Tratamento de erro de conexão
