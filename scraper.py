@@ -76,6 +76,7 @@ def scrape(max_pages: int | None = None) -> list[dict]:
             # chegou na última página
             break
         response.raise_for_status()
+        response.encoding = "utf-8"
 
         page_products = parse_page(response.text)
         if not page_products:
